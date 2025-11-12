@@ -16,48 +16,52 @@ Este projeto faz parte do meu portfólio como desenvolvedor backend, com foco em
 - 🧪 **Uvicorn** — servidor ASGI para desenvolvimento
 
 ---
+      
+      📁 Estrutura do projeto
+      webapi_users_fastapi/
+      ├──App/
+         ├── main.py
+         ├── models.py
+         ├── schemas.py
+         ├── database.py
+         ├── crud.py
+      ├── users.db
+      └── requirements.txt
 
-📁 Estrutura do projeto
-webapi_users_fastapi/
-├──App/
-   ├── main.py
-   ├── models.py
-   ├── schemas.py
-   ├── database.py
-   ├── crud.py
-├── users.db
-└── requirements.txt
+⚙️ Como executar o projeto
 
-## ⚙️ Como executar o projeto
+1 Clonar o repositório
 
-### 1 Clonar o repositório
-
-```bash
-git clone https://github.com/SEU_USUARIO/webapi_users_fastapi.git
-cd webapi_users_fastapi
-
-2 Criar ambiente virtual
-python3 -m venv venv
-source venv/bin/activate
-
-3 Instalar dependências
-pip install -r requirements.txt
-
-4️⃣ Executar a API
-uvicorn main:app --reload
-
-Acesse no navegador:
-👉 http://127.0.0.1:8000/docs
-
-para abrir a interface interativa do Swagger.
+      bash
+         git clone https://github.com/SEU_USUARIO/webapi_users_fastapi.git
+         cd webapi_users_fastapi
+      
+      2 Criar ambiente virtual
+      python3 -m venv venv
+         source venv/bin/activate
+      
+      3 Instalar dependências
+            pip install -r requirements.txt
+      
+      4️ Executar a API
+            uvicorn main:app --reload
+      
+      Acesse no navegador:
+      👉 http://127.0.0.1:8000/docs
+      
+      para abrir a interface interativa do Swagger.
 
 🧠 Funcionalidades
 
-✅ Criar um novo usuário
-✅ Listar todos os usuários cadastrados
-✅ Buscar usuário por ID
-✅ Atualizar dados de um usuário existente
-✅ Remover um usuário do banco de dados
+   ✅ Criar um novo usuário
+   
+   ✅ Listar todos os usuários cadastrados
+   
+   ✅ Buscar usuário por ID
+   
+   ✅ Atualizar dados de um usuário existente
+   
+   ✅ Remover um usuário do banco de dados
 
 💡 Aprendizados e Objetivo
 
@@ -78,15 +82,15 @@ Boas práticas para portfólio backend
 O projeto inclui a interface Swagger UI gerada automaticamente pelo FastAPI:
 
 
-
 🧑‍💻 Autor
+-Everson Coelho Magalhães
 
-Everson Coelho Magalhães
-Desenvolvedor Backend Python | Experiência com PHP, Delphi e WordPress
-🐝 Projeto criado como parte de meu portfólio
+-Desenvolvedor Backend Python | Experiência com Mysql, SQLServer,PHP, WordPress etc
 
-📬 Perfil no LinkedIn
+-🐝 Projeto criado como parte de meu portfólio
 
+
+📬 LinkedIn
 🐙 GitHub
 
 📜 Licença
